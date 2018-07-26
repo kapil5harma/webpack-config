@@ -1,0 +1,15 @@
+{
+  "name": "webpack-config-like-create-react-app",
+  "version": "1.0.0",
+  "description": "Webpack Config setup like in create-react-app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kapil",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^3.12.0",
+    "webpack-dev-server": "^3.1.5"
+  }
+}
