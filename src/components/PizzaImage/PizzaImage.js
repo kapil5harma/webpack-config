@@ -5,7 +5,7 @@ import PizzaImage from '../../assets/pizza.jpg';
 
 const pizzaImage = props => {
   return (
-    <div className={classes.pizzaImage}>
+    <div className={classes.PizzaImage}>
       <img src={PizzaImage} alt="pizza-image" className={classes.PizzaImg} />
     </div>
   );
