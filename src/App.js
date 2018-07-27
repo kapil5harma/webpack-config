@@ -6,7 +6,7 @@ import Users from './containers/Users';
 // import Pizza from './containers/Pizza';
 
 const AsyncPizza = asyncComponent(() => {
-  return import('/containers/Pizza');
+  return import('./containers/Pizza');
 });
 
 class App extends Component {

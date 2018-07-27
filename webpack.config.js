@@ -7,7 +7,8 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
-    publoicPath: ''
+    chunkFilename: '[id].js',
+    publicPath: ''
   },
   resolve: {
     extensions: ['.js', '.jsx']
@@ -33,7 +34,7 @@ module.exports = {
           },
           {
             loader: 'postcss-loader',
-            option: {
+            options: {
               ident: 'postcss',
               plugins: () => {
                 autoprefixer({
